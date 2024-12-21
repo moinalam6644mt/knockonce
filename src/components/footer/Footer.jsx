@@ -22,13 +22,13 @@ const Footer = () => {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-3 col-sm-6 ftr-brand-pp">
-              <a className="navbar-brand mt30 mb25" href="#">
+              {/* <a className="navbar-brand mt30 mb25" href="#">
                 <img
                   src="/assets/images/logo.png"
                   alt="Logo"
                   width="250"
                 />
-              </a>
+              </a> */}
               <p className="text-dark">
                 <b>KnockOnce Pvt. Ltd. </b>
                 provides solutions and services across various verticals, helping
@@ -56,13 +56,16 @@ const Footer = () => {
                 <li>
                   <span><i className="fas fa-phone-alt"></i></span>
                   <p>
-                    Phone <span><a href="tel:+91-9525-952621">+91-9525-952621</a></span>
+                    Phone1 : <span><a href="tel:+91-9525-952621">+91-9525-952621</a></span>
+                  </p>
+                  <p>
+                    Phone2 :<span><a href="tel:+91-9525-952621">+91-9333-772433</a></span>
                   </p>
                 </li>
                 <li>
                   <span><i className="fas fa-map-marker-alt"></i></span>
                   <p>
-                    Address <span>City Center, Durgapur</span>
+                    Address <span>South Bazar , Andal</span>
                   </p>
                 </li>
               </ul>
@@ -107,12 +110,12 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="footer-social-media-icons">
-                  <a href="https://facebook.com/Imaginativo-infotech-Private-Limited-100166582619862/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
-                  <a href="https://twitter.com/ImaginativoI" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-                  <a href="https://www.instagram.com/imaginativoinfotech/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                  <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
+                  <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                  <a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
                 </div>
                 <div className="footer-">
-                  <p>Copyright © 2024 <b>Imaginativo Infotech Private Limited</b></p>
+                  <p>Copyright © 2024 <b>KnockOnce Private Limited</b></p>
                 </div>
               </div>
             </div>

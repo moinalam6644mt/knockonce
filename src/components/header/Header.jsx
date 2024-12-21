@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../../public/assests/images/compony_logo.png'
+import logo from '../../../public/assests/images/logo1.png'
 import d_svg from '../../../public/assests/images/designer.svg'
 const Header = () => {
   return (
@@ -7,20 +7,20 @@ const Header = () => {
       <div className="container-fluid m-pad">
         <div className="menu-header">
           {/* Logo Section */}
-          <div className="dsk-logo">
+          {/* <div className="dsk-logo">
             <a className="nav-brand" href="/">
               <img
-                src={logo}
+                src={`/assets/images/logo1.png`}
                 alt="Logo"
                 className="mega-white-logo"
               />
               <img
-                src={logo}
+                src={`/assets/images/logo1.png`}
                 alt="Logo"
                 className="mega-darks-logo"
               />
             </a>
-          </div>
+          </div> */}
 
           {/* Navigation Section */}
           <div className="custom-nav" role="navigation">
