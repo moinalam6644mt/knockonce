@@ -1,9 +1,13 @@
+"use client"
+
 import React from 'react'
 
-const _app = () => {
+const MyApp = ({ Component, pageProps }) => {
   return (
-    <div>_app</div>
-  )
-}
+      <>
+        <Component {...pageProps} />
+      </>
+  );
+};
 
-export default _app
+export default MyApp;
